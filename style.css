@@ -87,7 +87,10 @@ h4 {
 .trailer {
     color: white;
 }
-
+.video{
+    display: flex;
+    justify-content: center;
+}
 footer {
     background: linear-gradient(0deg, #bdbdbd 0%, #fee1e1 53%, #dda7a7 100%);
     padding: 1px;
