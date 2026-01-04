@@ -75,6 +75,7 @@ h4 {
 .game{
     width: 300px;
     text-align: center;
+  font-size: 20px;
 }
 
 .all_games{
