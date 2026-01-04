@@ -1,0 +1,119 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+}
+
+header {
+    background-image: url('изображение_2025-12-22_193521798.png');
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 4px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link:hover {
+    color: #C71585;
+    transition: 0.2s;
+}
+
+main {
+    background: radial-gradient(#bdbdbd 0%, #f0f0f0 53%, #59121d 100%);
+    border: solid 4px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 90vh;
+    text-shadow: 2px 2px 5px black;
+    color: white;
+    margin-top: -200px;
+    
+}
+
+.minecraft {
+    margin: 5px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.minecraft img {
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+iframe {
+    margin-left: 20px;
+    border: solid 4px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    
+}
+
+.game{
+    width: 300px;
+    text-align: center;
+}
+
+.all_games{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.trailer {
+    color: white;
+}
+
+footer {
+    background: linear-gradient(0deg, #bdbdbd 0%, #fee1e1 53%, #dda7a7 100%);
+    padding: 1px;
+}
+
+.footer {
+    margin-bottom: 50px;
+}
+
+.games {
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    font-size: 40px;
+}
+
+.games-url {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border: solid 1px;
+    padding: 10px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.description-header {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
